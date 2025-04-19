@@ -39,7 +39,7 @@ jobs:
 
       - name: Prepare Random Number of Commits
         id: random
-        run: echo "count=$((RANDOM % 15 + 25))" >> $GITHUB_ENV
+        run: echo "count=$((RANDOM % 7 + 5))" >> $GITHUB_ENV
 
       - name: Start Random Commits
         run: |
